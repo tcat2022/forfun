@@ -1,4 +1,32 @@
 body {
-    background-color:mediumaquamarine;
-    color: darkgoldenrod;
+    background-color:snow;
 }
+h1 {
+    color: powderblue;
+    border: 4px solid antiquewhite;
+    border-radius: 10%;
+    width: fit-content;
+    margin: auto;
+}
+  
+button {
+    color: ivory;
+    background-color: powderblue;
+    border:4px solid antiquewhite;
+    border-radius: 20%;
+   }
+#red {
+color:powderblue;
+border:4px solid antiquewhite;
+border-radius: 20%;
+width: fit-content;
+margin: auto;
+}
+h4 {
+    color:powderblue;
+    border:4px solid antiquewhite;
+    border-radius:20%;
+    width: fit-content;
+   margin: auto;
+    }
+  
