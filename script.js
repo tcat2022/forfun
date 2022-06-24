@@ -18,3 +18,9 @@ function egg() {
    alert('keep enjoying the website😊')
     }
 }
+function fin() {
+    alert("Freestyle is realy cool ⚽");
+}
+function rat() {
+    alert('Star Wars anyone 🤔?')
+}
