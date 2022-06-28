@@ -24,3 +24,4 @@ function fin() {
 function rat() {
     alert('Star Wars anyone 🤔?')
 }
+console.log(f)
