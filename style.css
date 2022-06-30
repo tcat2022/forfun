@@ -56,4 +56,8 @@ margin: auto;
     cursor:line;
 }
 
-  
+#jks_img {
+border: 3px groove aqua;
+width: 30%;
+cursor:pointer;
+}
