@@ -18,10 +18,5 @@ function egg() {
    alert('keep enjoying the website😊')
     }
 }
-function fin() {
-    alert("Freestyle is realy cool ⚽");
-}
-function rat() {
-    alert('Star Wars anyone 🤔?')
-}
-console.log(f)
+const a = ["hello ","there"]
+console.log(a[0]+ a[1])
