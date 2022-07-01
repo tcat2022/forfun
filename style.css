@@ -1,9 +1,9 @@
 body {
-    background-color:darkred;
+    background-color:chocolate;
 }
  #cat {
     font-family: 'Roboto Mono', monospace;
-    color: darkgoldenrod;
+    color: aqua;
     border: 4px solid darkcyan;
     border-radius: 10%;
     width: fit-content;
@@ -12,36 +12,36 @@ body {
   
 .button {
     color:x;
-    background-color: darkgoldenrod;
+    background-color:aqua;
     border:4px solid  darkcyan;
     border-radius: 20%;
    }
 #red {
-color:darkgoldenrod;
+color:aqua;
 border:4px solid darkcyan;
 border-radius: 10%;
 width: fit-content;
 margin: auto;
 }
 #tcat {
-    color:darkgoldenrod;
-    border:4px solid darkcyan;
+    color:aqua;
+    border:4px solid green;
     border-radius:20%;
     width: fit-content;
    margin: auto;
     }
     iframe {
-        border: 3px groove darkgoldenrod;
+        border: 3px groove aqua;
     }
     #fett {
         color: aqua;
     }
   #top {
     text-align:center;
-    border: 3px solid darkgoldenrod;
+    border: 3px solid green;
     margin:0 auto;
-    padding:auto;
-    width:30%;
+    padding:1%;
+    width:fit-content;
    vertical-align: middle;
   }
 #layout {
@@ -61,8 +61,9 @@ width: 30%;
 cursor:pointer;
 }
 #center {
-border: 2px solid aqua;
+border: 3px solid green;
 font-size: medium;
-background-color:crimson;
+color:aqua;
+background-color: chocolate;
 font-family:'roboto-mono', cursive ;
 }
