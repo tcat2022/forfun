@@ -31,7 +31,7 @@ margin: auto;
    margin: auto;
     }
     iframe {
-        border: 3px groove aqua;
+        border: 1px solid aqua;
     }
     #fett {
         color: aqua;
@@ -66,4 +66,13 @@ font-size: medium;
 color:aqua;
 background-color: chocolate;
 font-family:'roboto-mono', cursive ;
+}
+
+#dev {
+    text-align: center;
+    color: aqua;
+}
+#border_dev {
+    font-size: small;
+font-family: cursive;
 }
