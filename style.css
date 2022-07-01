@@ -61,3 +61,9 @@ border: 3px groove aqua;
 width: 30%;
 cursor:pointer;
 }
+#center {
+border: 2px solid aqua;
+font-size: medium;
+background-color:crimson;
+font-family:'roboto-mono', cursive ;
+}
