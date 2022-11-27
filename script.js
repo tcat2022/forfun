@@ -7,3 +7,5 @@ alert(a)
 }
 var b = `hello i am the developer 'tcat2022' and this was a great project and I hope you can learn from and use my code`
 console.log(b)
+const e = "hello console"
+console.log(e);
