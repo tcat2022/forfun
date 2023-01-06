@@ -12,6 +12,8 @@ width: 100%;
    border: 3px dotted #00f5d4;
    margin-bottom: 10px;
    padding: 0px 3px;
+   width: fit-content;
+   height: fit-content;
    font-family: 'Arima', cursive;
    font-family: 'IBM Plex Serif', serif;
    font-family: 'Roboto Mono', monospace;
@@ -22,6 +24,7 @@ width: 100%;
    top: 0px;
   display: flex;
   height: 80px;
+  width: 100%;
    justify-content: space-around;
    background-color: coral;
 color: white;
@@ -35,7 +38,7 @@ color: white;
    height: 40px;
    width: 600px;
 }
-.search-container input{
+ #input{
    background: transparent;
    width: 560px;
    flex: 1;
@@ -90,3 +93,45 @@ font-size: 30px;
  border-radius: 5px;
 padding: 0px 3px ;
  }
+ @media  (max-width: 1400px) {
+   .search-container{
+      width:500px ;
+   }
+ #input{
+   width:460px ;
+}
+}
+ @media  (max-width: 1200px) {
+.search-container{
+   width:400px ;
+}
+ #input{
+   width:360px ;
+}
+    }
+ @media  (max-width: 1000px) {
+ .search-container{
+  width:300px ;
+   }
+   #input{
+      width:260px ;
+    
+   }
+   .home{
+      font-size: 10px;
+      margin-top: 15px;
+   }
+ }    
+ @media  (max-width: 500px) {
+   .search-container{
+    width:200px ;
+     }
+     #input{
+        width:160px ;
+      
+     }
+     .home{
+        font-size: 10px;
+        margin-top: 15px;
+     }
+   }
