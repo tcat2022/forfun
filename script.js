@@ -1,20 +1,23 @@
-let button = document.getElementById('button');
-let number = document.getElementById('num');
-let title = document.getElementById('title');
-let subtext = document.getElementById('subtext');
-let hr = document.getElementById("hr1");
-let color = ["white","black"]
+const name = document.getElementById('name');
+const lName = document.getElementById('lName');
+const email = document.getElementById('email');
+const subject = document.getElementById('subject');
+const text = document.getElementById('text');
+const submit = document.getElementById('submit')
 
-
-
-button.addEventListener('click', () => {
-    number.style.display = 'inherit'
-    number.style.color = color[(Math.floor(Math.random() * 2))]
-    button.innerText = 'New Number'
-    button.style.color = color[(Math.floor(Math.random() * 2))]
-    number.innerText = Math.floor(Math.random()* 10 + 1)
-title.style.color = color[(Math.floor(Math.random() * 2))]
-subtext.style.color = color[(Math.floor(Math.random() * 2))]
-button.style.borderColor = color[(Math.floor(Math.random() * 2))]
-hr.style.background = color[(Math.floor(Math.random() * 2))]
+submit.addEventListener('click', (e) => {
+    e.preventDefault()
+    Email.send({
+        Host : "smtp.elasticemail.com",
+        Username : "tcatty7@gmail.com",
+        Password : "96915101A454B97FA5208BAD4C9AAA3560E6",
+        To : 'tcatty7@gmail.com',
+        From : "tcatty7@gmail.com",
+        Subject : "This is the subject",
+        Body : "And this is the body"
+    }).then(
+      message => alert(message)
+    );
+console.log('hey')
 })
+
